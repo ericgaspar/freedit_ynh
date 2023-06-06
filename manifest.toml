@@ -45,6 +45,7 @@ ram.runtime = "50M"
         url = "https://github.com/freedit-org/freedit/releases/download/v0.4.5/freedit-v0.4.5-x86_64-unknown-linux-gnu.zip"
         sha256 = "8d7d406638833ca7f62d41b1b15c7c3a259fc802a61c9b12de86d6fb4709d973"
         autoupdate.strategy = "latest_github_tag"
+        in_subdir = false
 
     [resources.system_user]
 
