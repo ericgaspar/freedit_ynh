@@ -69,6 +69,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+    main.default = 3001
 
     [resources.apt]
     packages = "deb1, deb2, php8.0-foo, php8.0-bar"
